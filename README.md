@@ -37,6 +37,8 @@ Review the documentation and comments in the notebooks.
 
 
 Reach out via GitHub discussions or contact the maintainer directly.
+⭐ If you find this project useful, please give it a star!
+
 
 
  Who Maintains and Contributes to This Project
