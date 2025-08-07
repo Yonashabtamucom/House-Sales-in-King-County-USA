@@ -1,46 +1,77 @@
-House Sales Price Prediction — King County, USA
+House Sales in King County, USA
+Welcome to this data science project exploring the housing market in King County, Washington using real Kaggle data!
 
- What the Project Does
-
-This project uses a real-world housing dataset from King County, Washington, covering residential house sales between May 2014 and May 2015. It builds machine learning models to predict house prices based on various property features such as size, location, and condition.
-
+ About the Project
  
- Why the Project is Useful
+This project analyzes over 21613 house sales in King County (including Seattle) from 2014-2015.
+We dive into factors affecting prices and build models to predict home values, using:
 
-Predicting house prices accurately is valuable for buyers, sellers, and real estate professionals to make informed decisions. This project demonstrates how machine learning can extract meaningful insights from housing data and produce reliable price estimates.
+Linear Regression
+
+Decision Trees
+
+Random Forest Regression
+
+Dataset Overview
+
+The dataset contains features such as:
+
+Feature	Description
+
+price        	Sale price of the house
+bedrooms	     Number of bedrooms
+bathrooms	    Number of bathrooms
+sqft_living	  Living area in square feet
+floors       	Number of floors
+waterfront   	Waterfront property indicator
+zipcode	      Location by zip code
+yr_built     	Year built
+yr_renovated 	Year renovated
+
+ How to Use
+ 
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/Yonashabtamucom/House-Sales-in-King-County-USA.git
+cd House-Sales-in-King-County-USA
+
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+
+Open the Jupyter notebook to explore the analysis and modeling:
+
+bash
+Copy
+Edit
+jupyter notebook house_price_sale.ipynb
+
+ Key Insights
+
+Larger living areas generally increase house prices.
+
+Waterfront homes command a premium.
+
+Renovations and newer build years positively impact value.
+
+Location (zipcode) is a strong price factor.
+
+ Contributing
+ 
+Feel free to open issues or submit pull requests to improve this project!
+
+📄 License
+This project is licensed under the MIT License.
+
+⭐ Thanks for checking out the project! Let me know if you want me to help add visuals or improve the README with badges and screenshots.
+⭐If you find useful this project,give me star.
 
 
- How Users Can Get Started
-
-Clone or download this repository.
 
 
-Load the dataset file kc_house_data.csv.
-
-
-Explore and preprocess the data using provided notebooks or scripts.
-
-
-Train and evaluate regression models like Linear Regression, Decision Tree, and Random Forest.
-
-
-Customize or extend models to improve prediction or fit your needs.
-
-
-Where Users Can Get Help
-
-
-Check the repository’s Issues tab for common questions or bug reports.
-
-
-Review the documentation and comments in the notebooks.
-
-
-Reach out via GitHub discussions or contact the maintainer directly.
-⭐ If you find this project useful, please give it a star!
-
-
-
- Who Maintains and Contributes to This Project
-
-This project is maintained by  YONAS HABTAMU. Contributions and feedback are welcome! Feel free to fork the repository, submit pull requests, or open issues to improve the project.
